@@ -16,3 +16,17 @@ color: #515151;
     padding: 5px;
 
 }
+
+button{
+    display: flex;
+    width: max-content;
+    align-self: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+
+.completed{
+    border-color: green;
+    border-width: 5px;
+}
