@@ -1,10 +1,16 @@
 .todo-title{
 font-weight: bold;
 font-size: x-large;
+align-self: center;
+justify-content: center;
+padding: 10px;
 }
 
 .todo-date{
 color: #515151;
+align-self: center;
+justify-content: center;
+padding: 10px;
 }
 
 .todo-li{
@@ -14,7 +20,8 @@ color: #515151;
     border-width: 1px;
     border-radius: 10px;
     padding: 5px;
-
+    margin: 10px;
+    background-color: aliceblue;
 }
 
 button{
@@ -27,6 +34,7 @@ button{
 
 
 .completed{
-    border-color: green;
+    background-color: rgba(0, 128, 0, 0.432);
+    border-color: rgba(0, 128, 0, 0.726);
     border-width: 5px;
 }
