@@ -10,7 +10,7 @@ class Todolist {
     }
 
     removeTodo(todo) {
-    this.todoArray = this.todoArray.filter((element) => element !== todo);
+        this.todoArray = this.todoArray.filter((element) => element !== todo);
     }
 
     sortByTitle() {
@@ -18,11 +18,11 @@ class Todolist {
     }
 
     sortByCreationDate() {
-        return this.todoArray.sort((todo1, todo2) => todo1.compareByCreationDate(todo2));
+        return this.todoArray.sort((todo1,todo2)=> todo1.compareByCreationDate(todo2));
     }
 
     completeTodo(todo) {
-        return todo.isCompleted = true;
+        todo.isCompleted=true;
     }
 
     static fromObjectArray(title, objectArray) {
